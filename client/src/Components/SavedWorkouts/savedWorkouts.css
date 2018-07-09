@@ -13,7 +13,6 @@
 .saved-container {
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
   height: 80%;
   position: relative;
   top: 55px;

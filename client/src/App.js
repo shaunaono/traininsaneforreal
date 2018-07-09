@@ -23,68 +23,38 @@ class App extends Component {
 
       const savedWorkoutsFromAPI = [
         {
-          name: "Leg Blast",
-          likes: 150,
-        },
-        {
+          _id: "5b3911d28ad80478acff46bc",
           name: "Back and Bi's",
           likes: 201,
+          exercises: [
+            {
+              _id: "5b3911d18ad80478acff46b5",
+              name: "Back Extension",
+              sets: 4,
+              reps: 15,
+              notes: "With a barbell",
+            },
+          ],
         },
         {
           name: "Glutes n Hammies",
           likes: 53,
-        },
-        {
-          name: "Chest and Tri's",
-          likes: 78,
-        },
-        {
-          name: "Leg Blast",
-          likes: 150,
-        },
-        {
-          name: "Back and Bi's",
-          likes: 201,
-        },
-        {
-          name: "Glutes n Hammies",
-          likes: 53,
-        },
-        {
-          name: "Chest and Tri's",
-          likes: 78,
-        },
-        {
-          name: "Leg Blast",
-          likes: 150,
-        },
-        {
-          name: "Back and Bi's",
-          likes: 201,
-        },
-        {
-          name: "Glutes n Hammies",
-          likes: 53,
-        },
-        {
-          name: "Chest and Tri's",
-          likes: 78,
-        },
-        {
-          name: "Leg Blast",
-          likes: 150,
-        },
-        {
-          name: "Back and Bi's",
-          likes: 201,
-        },
-        {
-          name: "Glutes n Hammies",
-          likes: 53,
-        },
-        {
-          name: "Chest and Tri's",
-          likes: 78,
+          exercises: [
+            {
+              _id: "5b3911d18ad80478acff46b6",
+              name: "Adductors",
+              sets: 3,
+              reps: 30,
+              notes: "0",
+            },
+            {
+              _id: "5b3911d18ad80478acff46b7",
+              name: "Leg Curls",
+              sets: 3,
+              reps: 20,
+              notes: "0",
+            },
+          ],
         },
       ];
       // After we get out stuff from API,
