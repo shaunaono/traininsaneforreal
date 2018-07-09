@@ -1,0 +1,10 @@
+.likes {
+  font-size: x-small;
+}
+.workout-container {
+  text-align: center;
+  padding-top: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}

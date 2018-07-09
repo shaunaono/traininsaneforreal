@@ -1,0 +1,21 @@
+.library-title {
+  font-size: large;
+  position: fixed;
+  width: 100%;
+  background-color: #fafafa;
+  border-bottom: 1px solid whitesmoke;
+  z-index: 1;
+}
+
+.workouts-library-container {
+  height: 100%;
+}
+
+.workouts-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 80%;
+  position: relative;
+  top: 55px;
+}

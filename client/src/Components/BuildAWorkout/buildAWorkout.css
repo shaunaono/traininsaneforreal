@@ -1,0 +1,23 @@
+.build-title {
+  font-size: large;
+  position: fixed;
+  width: 100%;
+  background-color: #fafafa;
+  border-bottom: 1px solid whitesmoke;
+  z-index: 1;
+}
+
+.build {
+  width: 100%;
+  height: 100%;
+}
+
+.container {
+  padding-right: 15px;
+  padding-left: 15px;
+  position: relative;
+  top: 85px;
+}
+.shadow-textarea {
+  text-align: center;
+}

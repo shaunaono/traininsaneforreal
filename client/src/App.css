@@ -1,0 +1,42 @@
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  width: 100%;
+  height: 100%;
+}
+#root,
+.home-container {
+  width: 100%;
+  height: 100%;
+}
+
+.title {
+  text-align: center;
+  padding: 15px;
+  color: black;
+}
+.homebutt {
+  text-align: center;
+  padding: 15px;
+  color: red;
+  font-size: 18px;
+}
+
+.homebutt-container {
+  position: fixed;
+  width: 100%;
+  bottom: 0px;
+  border-top: 1px solid whitesmoke;
+  background-color: #fafafa;
+}
+
+.homebutt {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+  height: 12%;
+}

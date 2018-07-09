@@ -1,0 +1,8 @@
+.libraryCard {
+  font-size: large;
+  position: fixed;
+  width: 100%;
+  background-color: #fafafa;
+  border-bottom: 1px solid whitesmoke;
+  z-index: 1;
+}
