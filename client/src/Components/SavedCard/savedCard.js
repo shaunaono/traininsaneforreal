@@ -1,4 +1,6 @@
 import React, { Component } from "react";
+import { Link } from "react-router-dom";
+import "./savedCard.css";
 
 export default class SavedCard extends Component {
   render() {
@@ -44,6 +46,11 @@ const Exercise = props => {
           />
         </div>
       </form>
+      <div className="homebutt-container">
+        <Link className="homebutt" to="/">
+          Home
+        </Link>
+      </div>
     </div>
   );
 };

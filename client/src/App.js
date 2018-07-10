@@ -8,6 +8,7 @@ import SavedWorkouts from "./Components/SavedWorkouts";
 import BuildAWorkout from "./Components/BuildAWorkout";
 import LibraryCard from "./Components/LibraryCard";
 import SavedCard from "./Components/SavedCard";
+import NewWorkoutForm from "./Components/NewWorkoutForm";
 import axios from "axios";
 
 class App extends Component {
@@ -91,6 +92,7 @@ class App extends Component {
           <Route exact path="/build" component={BuildAWorkout} />
           <Route exact path="/librarycard" component={LibraryCard} />
           <Route exact path="/savedcard" component={SavedCard} />
+          <Route exact path="/newworkoutform" component={NewWorkoutForm} />
         </Switch>
       </Router>
     );
